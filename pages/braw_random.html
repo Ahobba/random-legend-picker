@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <title>Brawlhalla Random Legend Picker</title>
+</head>
+
+<body class="has-text-light">
+    <div class="container is-fulld">
+        <h1 class="title is-1 has-text-centered mt-5 mb-5" style="font-family: 'Bungee Spice', cursive; ">Brawlhalla Random Legend Picker</h1>
+        <div class="columns has-text-dark is-multiline weaponpicker">
+            <div class="column is-2 is-12-mobile is">
+                <button class="button is-fullwidth is-info is-light mb-3">Axe</button>
+            </div>
+
+            <div class="column is-2 is-12-mobile is-one-third-tablet is-one-fourth-desktop">
+                <button class="button is-fullwidth is-info is-light mb-3">Hammer</button>
+            </div>
+
+            <div class="column is-2 is-12-mobile is-one-third-tablet is-one-fourth-desktop">
+                <button class="button is-fullwidth is-info is-light mb-3">Sword</button>
+            </div>
+
+            <div class="column is-2 is-12-mobile is-one-third-tablet is-one-fourth-desktop">
+                <button class="button is-fullwidth is-info is-light mb-3">Blasters</button>
+            </div>
+
+            <div class="column is-2 is-12-mobile is-one-third-tablet is-one-fourth-desktop">
+                <button class="button is-fullwidth is-info is-light mb-3">Katars</button>
+            </div>
+
+            <div class="column is-2 is-12-mobile is-one-third-tablet is-one-fourth-desktop">
+                <button class="button is-fullwidth is-info is-light mb-3">Bow</button>
+            </div>
+
+            <div class="column is-2 is-12-mobile is-one-third-tablet is-one-fourth-desktop">
+                <button class="button is-fullwidth is-info is-light mb-3">Orb</button>
+            </div>
+
+            <div class="column is-2 is-12-mobile is-one-third-tablet is-one-fourth-desktop">
+                <button class="button is-fullwidth is-info is-light mb-3">Cannon</button>
+            </div>
+            
+            <div class="column is-2 is-12-mobile is-one-third-tablet is-one-fourth-desktop">
+                <button class="button is-fullwidth is-info is-light mb-3">Rocket Lance</button>
+            </div>
+
+            <div class="column is-2 is-12-mobile is-one-third-tablet is-one-fourth-desktop">
+                <button class="button is-fullwidth is-info is-light mb-3">Gauntlets</button>
+            </div>
+
+            <div class="column is-2 is-12-mobile is-one-third-tablet is-one-fourth-desktop">
+                <button class="button is-fullwidth is-info is-light mb-3">Scythe</button>
+            </div>
+
+            <div class="column is-2 is-12-mobile is-one-third-tablet is-one-fourth-desktop">
+                <button class="button is-fullwidth is-info is-light mb-3">Greatsword</button>
+            </div>
+             
+            <div class="column is-2 is-12-mobile is-one-third-tablet is-one-fourth-desktop">
+                <button class="button is-fullwidth is-info is-light mb-3">Spear</button>
+            </div>
+        </div>
+        <button class="button is-primary is-fullwidth" onclick="pickRandomLegend()">Pick Random Legend</button>
+
+        <h1 class="title is-1 has-text-centered mt-4" id="result" style="color: #466783">
+
+        </h1>
+    </div>
+    <script src="../js/picker.js"></script>
+    <script src="../js/toggler.js"></script>
+</body>
+
+</html>
